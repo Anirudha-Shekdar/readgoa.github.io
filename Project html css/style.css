@@ -1,0 +1,59 @@
+*{
+    margin: 40;
+    padding: 20;
+}
+.main{
+    background-image: url("g2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 90px;
+}
+.text-block {
+    position: absolute;
+    bottom: 260px;
+    right: 520px;
+    left: 400;
+    padding-top: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(85, 105, 183);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }

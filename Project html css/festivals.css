@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    font-family:"Rubik", sans-serif;
+}
+
+.para1{
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    padding-left:40px ;
+    padding-right:40px ;
+    padding-top:10px ;
+    padding-bottom:15px ;
+}
+
+.line{
+    color: #000;
+}
+
+/* .table1{
+    
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    
+    /* padding:80px ; */
+    /* padding-top:2px ;
+}  */
+
+img{
+    width:800px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align:center;
+}
+
+.para2{
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    padding-left:40px ;
+    padding-right:40px ;
+    padding-top:10px ;
+    padding-bottom:15px ;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(85, 105, 183);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
